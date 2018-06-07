@@ -1,0 +1,60 @@
+body {
+  display:flex;
+ flex-direction: column;
+ font-family: 'Questrial';
+}
+
+header {
+  background-color: #2056ac;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+header i {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+ul {
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+  color: #ffffff ;
+  font-weight: bold;
+}
+
+ul li a {
+  padding: 1em;
+  color: #ffffff ;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #ffffff;
+  color: #2056ac;
+  border-radius: 5px;
+}
+
+main {
+display: flex;
+}
+
+main img {
+  float: left;
+  flex-grow: 1;
+}
+
+main section {
+flex-grow: 3;
+}
