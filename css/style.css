@@ -25,6 +25,14 @@ h1 {
   line-height: 1.5em;
   padding-bottom: 1.5em;
 }
+h2 {
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+h3, h4 {
+    font-weight: bold;
+}
 
 ul {
   display: flex;
@@ -47,14 +55,32 @@ ul li a:hover {
 }
 
 main {
-display: flex;
+
 }
 
 main img {
   float: left;
-  flex-grow: 1;
+  height:auto;
+  width: 40%;
+  margin: 1em;
 }
 
-main section {
-flex-grow: 3;
+
+main section h2 {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+main section p {
+    margin: 0 1em;
+}
+
+hr {
+    margin: 0.8em 1em;
+}
+
+.articleGrand, #petitArticle {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
 }
