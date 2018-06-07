@@ -93,22 +93,25 @@ hr {
   margin-bottom: 1em;
 }
 
-.bouton  {
+.bouton, .boutonPetit {
   text-align: center;
   background-color: #64ABD1;
   width: 45%;
   padding: 1em;
   margin: 1em auto;
 }
-.bouton a {
+
+.bouton a, .boutonPetit a {
   text-decoration: none;
   color: #ffffff;
+    margin-top: auto;
 }
 
 #petitArticle {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
 #petitArticle h4 {
@@ -120,5 +123,24 @@ margin-bottom: 2em;
   margin-bottom: 1em;
 }
 
-#petitArticle article:nth-child(2n+1) {
+.contact {
+    background-color: #E0EFF6;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.contact i {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.contact p {
+    width: 50%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.8em;
 }
