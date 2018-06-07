@@ -133,7 +133,7 @@ margin-bottom: 2em;
 
 .contact i {
     font-size: 2em;
-    padding-bottom: 0.5cmem;
+    padding-bottom: 0.5em;
 }
 
 .contact p {
@@ -143,4 +143,21 @@ margin-bottom: 2em;
     flex-direction: column;
     align-items: center;
     padding-bottom: 0.8em;
+}
+
+footer {
+  background-color:#2056ac;
+  color: grey;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8em;
+  padding : 2em 0;
+}
+
+footer i {
+  padding-bottom: 2em;
+  padding-right: 0.5em;
+  font-size: 1.8em;
 }
